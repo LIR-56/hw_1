@@ -21,7 +21,7 @@ start:
 	int 21h
 	mov bx, ax
 	mov ah, 3fh
-	mov cx, 45
+	mov cx, 40
 	mov dx, offset config 
 	int 21h
 	mov ah, 3Eh
